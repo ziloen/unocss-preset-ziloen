@@ -1,25 +1,9 @@
 {
-  "name": "unocss-preset-starter",
+  "name": "unocss-preset-ziloen",
   "type": "module",
-  "version": "0.0.0",
-  "packageManager": "pnpm@8.7.0",
+  "version": "0.0.1",
   "description": "<description>",
-  "author": "unpreset <https://github.com/unpreset>",
   "license": "MIT",
-  "homepage": "https://github.com/unpreset/unocss-preset-starter#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/unpreset/unocss-preset-starter.git"
-  },
-  "bugs": {
-    "url": "https://github.com/unpreset/unocss-preset-starter/issues"
-  },
-  "keywords": [
-    "unocss",
-    "unpreset",
-    "unocss-preset",
-    "unocss-preset-starter"
-  ],
   "sideEffects": false,
   "exports": {
     ".": {
@@ -58,10 +42,10 @@
     "@unocss/core": "< 1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "1.0.0-beta.10",
     "@babel/types": "^7.23.0",
     "@types/node": "^20.7.0",
     "@vitejs/plugin-vue": "^4.3.4",
+    "@ziloen/eslint-config": "^0.0.108",
     "bumpp": "^9.2.0",
     "eslint": "^8.50.0",
     "typescript": "5.2.2",
@@ -69,5 +53,10 @@
     "unocss": "^0.56.2",
     "vite": "^4.4.9",
     "vitest": "^0.34.5"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@ziloen/eslint-config"
+    ]
   }
 }
