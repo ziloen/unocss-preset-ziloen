@@ -43,20 +43,23 @@
   },
   "devDependencies": {
     "@babel/types": "^7.23.0",
-    "@types/node": "^20.7.0",
+    "@types/node": "^20.7.1",
     "@vitejs/plugin-vue": "^4.3.4",
-    "@ziloen/eslint-config": "^0.0.108",
+    "@ziloen/eslint-config": "^0.0.109",
     "bumpp": "^9.2.0",
     "eslint": "^8.50.0",
     "typescript": "5.2.2",
     "unbuild": "^2.0.0",
-    "unocss": "^0.56.2",
+    "unocss": "^0.56.4",
     "vite": "^4.4.9",
     "vitest": "^0.34.5"
   },
   "eslintConfig": {
     "extends": [
       "@ziloen/eslint-config"
-    ]
+    ],
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    }
   }
 }
