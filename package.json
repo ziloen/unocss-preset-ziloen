@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@babel/types": "^7.23.0",
-    "@types/node": "^20.7.1",
+    "@types/node": "^20.8.0",
     "@vitejs/plugin-vue": "^4.3.4",
     "@ziloen/eslint-config": "^0.0.109",
     "bumpp": "^9.2.0",
@@ -52,7 +52,7 @@
     "unbuild": "^2.0.0",
     "unocss": "^0.56.4",
     "vite": "^4.4.9",
-    "vitest": "^0.34.5"
+    "vitest": "^0.34.6"
   },
   "eslintConfig": {
     "extends": [

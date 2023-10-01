@@ -17,10 +17,10 @@ export const presetZiloen = definePreset(() => {
       ['flex-justify', { display: 'flex', 'justify-content': 'center' }],
       ['flex-stretch', { display: 'flex', 'align-items': 'stretch' }],
 
-      // word-wrap
-      ['word-wrap-normal', { 'word-wrap': 'normal' }],
-      ['word-wrap-break', { 'word-wrap': 'break-word' }],
-      ['word-wrap-anywhere', { 'word-wrap': 'anywhere' }],
+      // word-wrap / overflow-wrap
+      ['word-wrap-normal', { 'word-wrap': 'normal', 'overflow-wrap': "nomal" }],
+      ['word-wrap-break', { 'word-wrap': 'break-word', 'overflow-wrap': "break-word" }],
+      ['word-wrap-anywhere', { 'word-wrap': 'anywhere', 'overflow-wrap': "anywhere" }],
     ],
   }
 })
