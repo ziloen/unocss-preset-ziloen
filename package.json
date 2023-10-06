@@ -43,15 +43,15 @@
   },
   "devDependencies": {
     "@babel/types": "^7.23.0",
-    "@types/node": "^20.8.0",
-    "@vitejs/plugin-vue": "^4.3.4",
+    "@types/node": "^20.8.2",
+    "@vitejs/plugin-vue": "^4.4.0",
     "@ziloen/eslint-config": "^0.0.109",
     "bumpp": "^9.2.0",
     "eslint": "^8.50.0",
     "typescript": "5.2.2",
     "unbuild": "^2.0.0",
-    "unocss": "^0.56.4",
-    "vite": "^4.4.9",
+    "unocss": "^0.56.5",
+    "vite": "^4.4.11",
     "vitest": "^0.34.6"
   },
   "eslintConfig": {
