@@ -1,5 +1,6 @@
 import { definePreset } from '@unocss/core'
 
+
 export const presetZiloen = definePreset(() => {
 
   return {
@@ -18,6 +19,13 @@ export const presetZiloen = definePreset(() => {
       ['flex-around', { display: 'flex', 'justify-content': 'space-around' }],
       ['flex-evenly', { display: 'flex', 'justify-content': 'space-evenly' }],
       ['flex-stretch', { display: 'flex', 'align-items': 'stretch' }],
+      ['inline-flex-center', { display: 'inline-flex', 'justify-content': 'center', 'align-items': 'center' }],
+      ['inline-flex-align', { display: 'inline-flex', 'align-items': 'center' }],
+      ['inline-flex-justify', { display: 'inline-flex', 'justify-content': 'center' }],
+
+      // grid
+      ['grid-center', { display: 'grid', 'place-content': "center" }],
+      ['inline-grid-center', { display: 'inline-grid', 'place-content': "center" }],
 
       // word-wrap / overflow-wrap
       ['word-wrap-normal', { 'word-wrap': 'normal', 'overflow-wrap': "nomal" }],
