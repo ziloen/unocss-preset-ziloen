@@ -5,7 +5,6 @@ export const presetZiloen = definePreset(() => {
 
   return {
     name: 'unocss-preset-ziloen',
-    // Customize your preset here
     rules: [
       // oveflow-anchor
       ['overflow-anchor-auto', { 'overflow-anchor': 'auto' }],
@@ -24,13 +23,19 @@ export const presetZiloen = definePreset(() => {
       ['inline-flex-justify', { display: 'inline-flex', 'justify-content': 'center' }],
 
       // grid
-      ['grid-center', { display: 'grid', 'place-content': "center" }],
-      ['inline-grid-center', { display: 'inline-grid', 'place-content': "center" }],
+      ['grid-center', { display: 'grid', 'place-content': 'center' }],
+      ['inline-grid-center', { display: 'inline-grid', 'place-content': 'center' }],
 
       // word-wrap / overflow-wrap
-      ['word-wrap-normal', { 'word-wrap': 'normal', 'overflow-wrap': "nomal" }],
-      ['word-wrap-break', { 'word-wrap': 'break-word', 'overflow-wrap': "break-word" }],
-      ['word-wrap-anywhere', { 'word-wrap': 'anywhere', 'overflow-wrap': "anywhere" }],
+      ['word-wrap-normal', { 'word-wrap': 'normal', 'overflow-wrap': 'nomal' }],
+      ['word-wrap-break', { 'word-wrap': 'break-word', 'overflow-wrap': 'break-word' }],
+      ['word-wrap-anywhere', { 'word-wrap': 'anywhere', 'overflow-wrap': 'anywhere' }],
+
+      // z-index
+      ['z-max', { 'z-index': '2147483647' }],
+      ['z-min', { 'z-index': '-2147483648' }],
+
+      // size-\d
     ],
   }
 })
