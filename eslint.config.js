@@ -1,6 +1,6 @@
-import { typescript, format } from "@ziloen/eslint-config"
+import { typescript, format } from '@ziloen/eslint-config'
 
 export default [
-  ...typescript({ tsconfigPath: "./tsconfig.json" }),
+  ...typescript({ tsconfigPath: './tsconfig.json' }),
   ...format
 ]

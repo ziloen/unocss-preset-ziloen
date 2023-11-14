@@ -17,5 +17,5 @@ test('presetStarter', async () => {
     .flex-center{display:flex;justify-content:center;align-items:center;}
     .flex-align{display:flex;align-items:center;}
     .flex-justify{display:flex;justify-content:center;}"
-  `)  
+  `)
 })
