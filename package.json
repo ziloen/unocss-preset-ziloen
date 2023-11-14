@@ -44,7 +44,7 @@
     "@babel/types": "^7.23.3",
     "@types/node": "^20.9.0",
     "@vitejs/plugin-vue": "^4.4.1",
-    "@ziloen/eslint-config": "^0.1.5",
+    "@ziloen/eslint-config": "^0.1.6",
     "bumpp": "^9.2.0",
     "eslint": "^8.53.0",
     "typescript": "5.2.2",
