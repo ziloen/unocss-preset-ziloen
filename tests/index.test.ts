@@ -24,6 +24,13 @@ test('presetStarter', async () => {
   expect(css2).toMatchInlineSnapshot(`
     "/* layer: default */
     .z-max{z-index:2147483647;}
-    .z-min{z-index:-2147483648;}"
+    .z-min{z-index:-2147483647;}"
+  `)
+
+  const { css: css3 } = await uno.generate('scrollbar-none')
+
+  expect(css3).toMatchInlineSnapshot(`
+    "/* layer: default */
+    .scrollbar-none{scrollbar-width:none;-ms-overflow-style:none;}"
   `)
 })

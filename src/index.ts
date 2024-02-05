@@ -9,6 +9,8 @@ export const presetZiloen = definePreset(() => {
       // oveflow-anchor
       ['overflow-anchor-auto', { 'overflow-anchor': 'auto' }],
       ['overflow-anchor-none', { 'overflow-anchor': 'none' }],
+      ['of-anchor-auto', { 'overflow-anchor': 'auto' }],
+      ['of-anchor-none', { 'overflow-anchor': 'none' }],
 
       // flex
       ['flex-center', { display: 'flex', 'justify-content': 'center', 'align-items': 'center' }],
@@ -33,9 +35,21 @@ export const presetZiloen = definePreset(() => {
 
       // z-index
       ['z-max', { 'z-index': '2147483647' }],
-      ['z-min', { 'z-index': '-2147483648' }],
+      ['z-min', { 'z-index': '-2147483647' }],
+
+      // scrollbar
+      ['scrollbar-none', {
+        'scrollbar-width': 'none',
+        '-ms-overflow-style': 'none',
+        // TODO: fix this
+        // '&::-webkit-scrollbar': '{display:none;}'
+      }],
 
       // size-\d
+
+      // webkit-scrollbar-[4px]
+      // webkit-scrollbar-[red]
+      // webkit-scrollbar-m-[4px]
     ],
   }
 })
